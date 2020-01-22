@@ -11,6 +11,17 @@ body {
     max-width: 945px;
     margin: auto;
 }
+.section{
+    padding-top: 64px;
+    padding-bottom: 92px;
+} 
+.section-title{
+    margin: 0;
+    margin-bottom: 84px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
 .hero{
     padding-top: 50px;
     background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
@@ -68,6 +79,81 @@ body {
     border-radius: 50%;
     background-image: url('../img/avatar.jpg');
     background-repeat: no-repeat;
-    background-position: -76px -10px; 
+    background-position: -36px 0; 
     border: 13px solid #fff;
+}
+/* features */
+.features{
+    background-color: #000;
+}
+.features-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features-item{
+    flex-basis: 30%;
+    margin-bottom: 63px;
+}
+.features-image{
+    display: block;
+    margin-bottom: 22px;
+}
+.features-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.features-text{
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 ;
+}
+/* contacts */
+footer{
+    padding-top: 57px;
+    padding-bottom: 148px;
+}
+.contacts-form{
+    background: #FFF;
+    box-shadow: -5px 5px 0px #FFC41D;
+    border-radius: 5px;
+    max-width: 380px;
+    padding: 40px 48px 49px;
+}
+.form-title{
+    color: #000;
+    line-height: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 29px;
+}
+.input{
+    background: #F8F8F8;
+    border: none;
+    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+    border-radius: 5px;
+    padding: 18px 20px;
+    padding-left: 50px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 28px;
+}
+.input-name{
+    margin-bottom: 17px;
+    background-image: url(../img/user-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+}
+.input-phone {
+    margin-bottom: 17px;
+    background-image: url(../img/phone-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+}
+.form-button{
+    width: 100%;
 }
