@@ -36,13 +36,16 @@ body {
 .social-link{
     margin-left: 20px;
 }
+.social-link:first-child{
+    margin-left: 0;
+}
 .hero-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .hero-subtitle{
-    display: inline-block;
+    display: block;
     font-size: 24px;
     line-height: 28px;
     color: #FFBB01;
@@ -81,6 +84,73 @@ body {
     background-repeat: no-repeat;
     background-position: -36px 0; 
     border: 13px solid #fff;
+}
+/* projects */
+.projects {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+.project-slide{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.project-text{
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-title{
+    flex-basis: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 41px;
+}
+.project-time, .project-cost{
+    flex-basis: 50%;
+    margin-bottom: 44px;
+}
+.project-time, .project-cost, .project-feedback{
+    display: flex;
+    align-items: flex-start;
+}
+.project-subtitle{
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 7px;
+}
+.project-paragraph{
+    margin: 0;
+    font-size: 16px;
+    line-height: 19px;
+}
+.project-icon{
+    margin-right: 16px;
+}
+.projects-bullet{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #FFBB01;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.projects-bullet-active {
+    background-color: #FFBB01;
+}
+.projects-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+}
+.project-image{
+    width: 338px;
+    height: 268px;
 }
 /* features */
 .features{
@@ -156,4 +226,48 @@ footer{
 }
 .form-button{
     width: 100%;
+}
+.contacts-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contacts-text{
+    flex-basis: 50%;
+}
+.contacts-data{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 42px;
+}
+.contacts-phone, .contacts-mail{
+    flex-basis: 50%;
+    margin-bottom: 53px;
+}
+.contacts-social{
+    flex-basis: 100%;
+}
+.contacts-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFF;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.contacts-link{
+    text-decoration: none;
+    color: inherit;
+    margin-right: 37px;
+}
+.contacts-link:hover{
+    text-decoration: underline;
+}
+.contacts-policy{
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #A5A5A5;
+    display: inline-block;
+    margin-top: 72px;
 }
